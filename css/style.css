@@ -321,6 +321,7 @@ nav ul {
 .article-container p,.article-container2 p {
     color: #0e0e0ebc;
     margin-bottom: 12px;
+    text-align: justify;
 }
 .article-container h2,.article-container2 h2 {
     font-weight: bold;
