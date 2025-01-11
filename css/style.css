@@ -461,3 +461,7 @@ footer hr {
     justify-content: center;
     gap: 23px;
 }
+input[type="text"]:hover,input[type="email"]:hover,input[type="text"]:focus,input[type="email"]:focus,input[type="text"]:active,input[type="email"]:active {
+    border: 1px solid #006A50;
+    transition: 0.25s ease-in-out;
+}
