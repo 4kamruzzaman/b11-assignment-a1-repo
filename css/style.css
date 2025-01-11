@@ -278,14 +278,24 @@ nav ul {
     cursor: pointer;
   }
 
-/* Article CSS */
+/* Recent News CSS */
 
 .recent-news-container {
     margin: 32px 0 80px 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    gap: 24px;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.recent-news-container li {
+    list-style-type: none;
+    width: 100%;
+    padding: 48px;
+    background-color: #fff;
+    border: 1px solid #0e0e0e23;
+    border-radius: 24px;
 }
 
 /* Donate Now CSS */
