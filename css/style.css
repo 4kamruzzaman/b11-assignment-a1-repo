@@ -110,6 +110,10 @@ nav ul {
     border: 1px solid #0e0e0e1d;
     border-radius: 16px;
 }
+.pillars li:hover {
+    background-color: #006a500c;
+    transition: 0.25s ease-in-out;
+}
 .pillars h3,.visions h3 {
     font-size: 20px;
     color: #0e0e0ec4;
@@ -413,6 +417,10 @@ nav ul {
     text-align: center;
     border: 1px solid #0e0e0e23;
     border-radius: 24px;
+}
+.newsletter-container {
+    margin: 0 auto;
+    width: 750px;
 }
 .newsinput {
     margin: 24px 0;
