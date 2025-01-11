@@ -280,6 +280,13 @@ nav ul {
 
 /* Article CSS */
 
+.recent-news-container {
+    margin: 32px 0 80px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
 
 /* Donate Now CSS */
 
@@ -380,4 +387,9 @@ footer hr {
     width: 100%;
     margin: 24px 0;
     border: 1px solid #0e0e0e14;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
