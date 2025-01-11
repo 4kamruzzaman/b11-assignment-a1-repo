@@ -110,17 +110,232 @@ nav ul {
     border: 1px solid #0e0e0e1d;
     border-radius: 16px;
 }
-.pillars h3 {
+.pillars h3,.visions h3 {
     font-size: 20px;
     color: #0e0e0ec4;
     margin-bottom: 16px;
 }
-.pillars p {
+.pillars p,.visions p {
     font-size: 16px;
     color: #0e0e0e7f;
 }
-.pillars img {
+.pillars img,.visions img {
     width: 64px;
     height: 64px;
     margin-bottom: 24px;
+}
+
+/* Vision CSs */
+.vision-title {
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.vision-text {
+    font-size: 16px;
+    color: #0e0e0eb6;
+}
+.visions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 24px 0;
+}
+.visions li {
+    list-style-type: none;
+    width: 33.33%;
+    padding: 32px;
+    border-radius: 16px;
+}
+.visions li:nth-child(1) {
+    background-color:#006a5057;
+    border: 1px solid #006A50;
+}
+.visions li:nth-child(2) {
+    background-color: #f5545457;
+    border: 1px solid #F55454;
+}
+.visions li:nth-child(3) {
+    background-color: #f5d5545c;
+    border: 1px solid #F5D454;
+}
+.visionbtn1 {
+    margin-top: 24px;
+    background-color: #006A50;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.visionbtn1:hover {
+    background-color: #fff;
+    color: #006A50;
+    transition: 0.25s ease-in-out;
+}
+.visionbtn2 {
+    margin-top: 24px;
+    background-color: #F55454;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: 1px solid #F55454;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.visionbtn2:hover {
+    background-color: #fff;
+    color: #F55454;
+    transition: 0.25s ease-in-out;
+}
+.visionbtn3 {
+    margin-top: 24px;
+    background-color: #F5D454;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: 1px solid #F5D454;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.visionbtn3:hover {
+    background-color: #fff;
+    color: #F5D454;
+    transition: 0.25s ease-in-out;
+}
+
+/* Quote CSS */
+.quote-container {
+    width: 100%;
+    background-color: #fff;
+    padding: 48px 24px;
+    border: 1px solid #0e0e0e23;
+    border-radius: 16px;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+.quote-bg {
+    background-image: url(/images/quote-bg.png);
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.quote {
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+/* Opinion CSS */
+
+.opinion-container {
+    width: 100%;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 3px 1px #0e0e0e1d;
+    margin-bottom: 80px;
+}
+.opiniontbl {
+    width: 100%;
+    border-collapse: collapse;
+  }
+.opiniontbl th,.opiniontbl td {
+    width: 80%;
+    padding: 24px;
+    border: 1px solid #0e0e0e29;
+  }
+.opiniontbl th {
+    background-color: #C6E4D6;
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 20px;
+  }
+.opiniontbl th:nth-child(1){
+    border-right: 0;
+  }
+.opiniontbl th:nth-child(2){
+    border-left: 0;
+  }
+.opiniontbl td {
+    font-weight: 600;
+    font-size: 16px;
+  }
+.center {text-align: center;}
+.opiniontbl select {
+    padding: 10px 14px;
+    font-size: 16px;
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #0E0E0E;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    cursor: pointer;
+  }
+
+/* Article CSS */
+
+
+/* Donate Now CSS */
+
+.donate-container {
+    width: 100%;
+    margin: 32px 0; 
+}
+.donate {
+    margin: 0 30px; 
+    width: calc(100% - 60px);
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.donate li {
+    list-style-type: none;
+    width: 25%;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 40px;
+    border: 1px solid #0e0e0e23;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.donate li:nth-child(2) {
+    background-color: #C6E4D6;
+}
+.donate li:hover {
+    background-color: #006A50;
+    color: #fff;
+    transition: 0.25s ease-in-out;
+}
+.amount-field {
+    padding: 0 50px;
+    margin-bottom: 3px;
+}
+.amount-field input[type="text"] {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #0E0E0E;
+    border: 1px solid #0e0e0e2d;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+/* Newsletter CSS */
+
+.newsletterbg {
+    margin: 80px 0;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    text-align: center;
+    border: 1px solid #0e0e0e23;
+    border-radius: 24px;
 }
