@@ -288,7 +288,6 @@ nav ul {
     flex-direction: column;
     row-gap: 24px;
 }
-
 .recent-news-container li {
     list-style-type: none;
     width: 100%;
@@ -301,6 +300,7 @@ nav ul {
 .article-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 32px;
 }
 .article-container li {
@@ -313,18 +313,47 @@ nav ul {
 .article-container li:nth-child(2) {
     width: 65%;
 }
-.article-container img {
+.article-container img,.article-container2 img {
     width: 408px;
     height: 306px;
     border-radius: 24px;
 }
-.article-container h2 {
+.article-container p,.article-container2 p {
+    color: #0e0e0ebc;
+    margin-bottom: 12px;
+}
+.article-container h2,.article-container2 h2 {
     font-weight: bold;
     font-size: 32px;
     color: #0E0E0E;
+    margin-bottom: 12px;
 }
-.article-container .author {
-    
+.article-container .author,.article-container2 .author {
+    width: 134px;
+    height: 40px;
+    border-radius: 0;
+}
+.article-container .date,.article-container2 .date {
+    margin-right:10px;
+}
+
+/**/
+
+.article-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.article-container2 li {
+    width: 65%;
+    padding: 0;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+.article-container2 li:nth-child(2) {
+    width: auto;
 }
 
 /* Donate Now CSS */
