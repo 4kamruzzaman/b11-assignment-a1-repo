@@ -298,6 +298,35 @@ nav ul {
     border-radius: 24px;
 }
 
+.article-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.article-container li {
+    width: auto;
+    padding: 0;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+.article-container li:nth-child(2) {
+    width: 65%;
+}
+.article-container img {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.article-container h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.article-container .author {
+    
+}
+
 /* Donate Now CSS */
 
 .donate-container {
@@ -305,7 +334,7 @@ nav ul {
     margin: 32px 0; 
 }
 .donate {
-    margin: 0 30px; 
+    margin: 32px 30px; 
     width: calc(100% - 60px);
     display: flex;
     justify-content: space-between;
@@ -332,7 +361,6 @@ nav ul {
 }
 .amount-field {
     padding: 0 50px;
-    margin-bottom: 3px;
 }
 .amount-field input[type="text"] {
     width: 100%;
