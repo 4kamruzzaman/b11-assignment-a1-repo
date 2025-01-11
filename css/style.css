@@ -224,7 +224,7 @@ nav ul {
     margin-bottom: 80px;
 }
 .quote-bg {
-    background-image: url(/images/quote-bg.png);
+    background-image: url("/images/quote-bg.png");
     background-repeat: no-repeat;
     opacity: 0.7;
 }
