@@ -339,3 +339,22 @@ nav ul {
     border: 1px solid #0e0e0e23;
     border-radius: 24px;
 }
+.newsinput {
+    margin: 24px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.newsinput li {
+    list-style-type: none;
+}
+.newsinput input[type="email"] {
+    width: 600px;
+    height: 55px;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #0E0E0E;
+    border: 1px solid #0e0e0e2d;
+    border-radius: 8px;
+}
