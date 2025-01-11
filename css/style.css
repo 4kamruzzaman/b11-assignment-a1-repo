@@ -351,10 +351,33 @@ nav ul {
 }
 .newsinput input[type="email"] {
     width: 600px;
-    height: 55px;
+    height: 57px;
     padding: 18px 40px;
     font-size: 16px;
     color: #0E0E0E;
     border: 1px solid #0e0e0e2d;
-    border-radius: 8px;
+    border-radius: 8px 0 0 8px;
+}
+.newsinput .herobtn {
+    border-radius: 0 8px 8px 0;
+}
+
+/* Footer CSS */
+
+footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 160px;
+    color: #fff;
+    text-align: center;
+}
+.footer-title {
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+footer hr {
+    width: 100%;
+    margin: 24px 0;
+    border: 1px solid #0e0e0e14;
 }
